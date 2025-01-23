@@ -23,7 +23,7 @@ We will stay in this directory for the remainder of the steps.
 ### 2. Compile the application
 
 ```bash
-javac --module-path <your-config>/javafx-sdk-21.0.2/lib --add-modules javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web,javafx.swt -d out src/**/*.java
+javac --module-path <your-config>/javafx-sdk-21.0.2/lib --add-modules javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web -d out src/**/*.java
 ```
 Run this command in the /BloonsTDClone location, and replace <your-config> to the location of the javafx SDK on your machine.
 
@@ -37,7 +37,7 @@ Must be done manually, image files are not compiled by java naturally.
 ### 4. Run the game
 
 ```bash
-java --module-path <your-config>/javafx-sdk-21.0.2/lib --add-modules javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web,javafx.swt -cp out model.Bloons
+java --module-path "C:/Users/alex/Desktop/javafx-sdk-21.0.2/lib" --add-modules javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web -cp out model.Bloons
 ```
 Again, replace <your-config> with the path to the javafx SDK on your machine.
 
