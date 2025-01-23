@@ -28,11 +28,7 @@ public class Bloons extends Application {
 
 	public static void main(String[] args) {
 		gm = new GameManager();
-		launch(args)
-		
-		
-		
-		;
+		launch(args);
 	}
 
 	@Override
