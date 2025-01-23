@@ -6,6 +6,8 @@ This is written using javafx 21.0.2, and is not tested on other versions.
 
 This is without maven/gradel, with manual javafx setup. Below instructs how to run
 
+Your terminal must support globbing for these steps to work, so some windows shells may have issues
+
 ### Running instructions:
 
 Download javafx SDK from https://gluonhq.com/products/javafx/ (21.0.2 is an older and now unsupported version at this time)
