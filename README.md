@@ -37,7 +37,7 @@ Must be done manually, image files are not compiled by java naturally.
 ### 4. Run the game
 
 ```bash
-java --module-path "C:/Users/alex/Desktop/javafx-sdk-21.0.2/lib" --add-modules javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web -cp out model.Bloons
+java --module-path "<your-config>/javafx-sdk-21.0.2/lib" --add-modules javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web -cp out model.Bloons
 ```
 Again, replace <your-config> with the path to the javafx SDK on your machine.
 
