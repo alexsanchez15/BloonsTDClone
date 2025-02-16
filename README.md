@@ -1,6 +1,6 @@
 # Bloons Tower Defense Game Clone -
 
-A personal project to practice writing larger scale code myself in java, learn and grow. Started May 2024
+A personal project to practice writing code in java, started May 2024
 
 This is written using javafx 21.0.2, and is not tested on other versions.
 
